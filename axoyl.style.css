@@ -1,0 +1,77 @@
+/**
+ * @name Axoyl
+ * @description Axoyl's Default Theme
+ * @author axoyl
+ * @version 1.0.0
+ * @authorId 1018876856994365470
+*/
+
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/main.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css');
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css');
+
+:root {
+  --mention-color-bar: #000000;
+  --mention-color-background: rgb(0,0,0,0.24);
+  --mention-color-hover: rgb(0,0,0,0.39);
+  --mention-color: #F24141;
+  --unread-color: #7289DA;
+  --chat-buttons: #7289DA;
+  --avatar-radius: 8px;
+  --status-radius: 3px;
+  --server-radius: 12px;
+  --status-background: url('https://i.imgur.com/ODa8LKK.jpg');
+  --online: #43B581;
+  --iddle: #FAA61A;
+  --dnd: #F04747;
+  --offline: #A6B0BD;
+  --streaming: #593695;
+  --spotify-color: #1EDC62;
+  --user-buttons-spacing: 8px;
+  --user-buttons-color: #85C7FF;
+  --role-circle: 9px;
+  --discord-logo: block;
+  --colored-emoji: grayscale(0%);
+  --disable-animations: 2s channel-unread infinite;
+}
+
+.theme-dark {
+  --background-primary: #212326;
+  --background-secondary: #28292C;
+  --background-secondary-alt: #303237;
+  --background-tertiary: #1B1C1D;
+  --background-mobile-primary: #28292C;
+  --background-mobile-secondary: #2A2B2F;
+  --channeltextarea-background: #1C1D1F;
+  --background-accent: #7487C7;
+  --background-modifier-hover: rgb(0,0,0,0.07);
+  --background-modifier-active: rgba(0, 0, 0, 0.10);
+  --background-modifier-selected: rgb(0,0,0,0.15);
+  --deprecated-card-bg: rgb(18,20,31,0.39);
+  --background-floating: rgb(33,34,36,1);
+  --deprecated-quickswitcher-input-background: #171819;
+  --scrollbar-auto-thumb: #1B1C1D;
+  --scrollbar-auto-track: #1A1B1C;
+  --scrollbar-thin-thumb: #19191A;
+  --activity-card-background: #19191B;
+  --background-message-hover: transparent;
+  --elevation-low: none;
+}
+
+.theme-light {
+  --background-primary: #23283D;
+  --background-secondary: #1E2233;
+  --background-secondary-alt: #191F2E;
+  --background-tertiary: #101320;
+  --background-accent: #7289DA;
+  --background-modifier-hover: #262B41;
+  --background-modifier-active: #262B41;
+  --header-primary: #fff;
+  --header-secondary: #B1B5B9;
+  --text-normal: #8E9297;
+}
+
+/* Any custom CSS below here */
+
+
